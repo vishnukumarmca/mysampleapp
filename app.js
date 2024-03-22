@@ -1,6 +1,6 @@
 // Import required modules
 const express = require('express');
-const authRoutes = require('../myapp/routes/authRoute');
+const authRoutes = require('./routes/authRoute');
 const bodyParser = require('body-parser');
 
 // Create an instance of Express application
